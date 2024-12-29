@@ -1,12 +1,37 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
 
-/* 
+.card {
+    height: 100%;
+    white-space: auto;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.bg-purple {
+    background-color: #5a32a3;
+}
 
-*/
+.card-image {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+
+.footer-custom {
+    background-color: #995af2; 
+    color: rgb(15, 9, 44);
+    
+}
+
+.btn-purple {
+    background-color: #551589;
+    color: rgb(255, 255, 255);
+    width:200px;
+    margin: 10px;
+}
+
+.btn-purple:hover {
+    background-color: #5a32a3; 
+    border-color: #5a32a3;
+}
+
